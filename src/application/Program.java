@@ -11,6 +11,7 @@ public class Program {
 		
 		Department obj = new Department(1,"Books");
 		SellerDao sellerDao = DaoFactory.createSellerDao();
+		System.out.println("===Teste 1: findById do seller===");
 		Seller seller = sellerDao.findById(3);
 		
 		System.out.println(seller);
